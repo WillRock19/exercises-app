@@ -15,11 +15,17 @@
         "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true
-        }
+        },
+        "project": ["tsconfig.json"]
     },
     "plugins": [
         "react"
     ],
     "rules": {
-    }
+    },
+    "settings": {
+        "react": {
+          "version": "detect"
+        }
+      }
 }
