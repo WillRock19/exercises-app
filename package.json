@@ -1,0 +1,19 @@
+{
+  "name": "exercises-app",
+  "version": "1.0.0",
+  "description": "Project created to store multiple exercises and test some react practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillRock19/exercises-app.git"
+  },
+  "author": "WillRock19",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillRock19/exercises-app/issues"
+  },
+  "homepage": "https://github.com/WillRock19/exercises-app#readme"
+}
