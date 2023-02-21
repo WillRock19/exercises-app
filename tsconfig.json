@@ -1,14 +1,15 @@
 {
-    "compilerOptions": {
-      "outDir": "./dist/",
-      "noImplicitAny": true,
-      "module": "es6",
-      "target": "es5",
-      "jsx": "react",
-      "allowJs": true,
-      "moduleResolution": "node",
-      "allowSyntheticDefaultImports": true // Explanation: https://www.typescriptlang.org/tsconfig#allowSyntheticDefaultImports:~:text=tsconfig.json.-,%23,-Interop%20Constraints
-    },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules", "**/*.spec.ts"],
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"noImplicitAny": true,
+		"module": "es6",
+		"target": "es5",
+		"jsx": "react",
+		"allowJs": true,
+		"moduleResolution": "node",
+		"strictNullChecks": true, // Needed to solve this error: https://github.com/standard/eslint-config-standard-with-typescript/issues/481
+		"allowSyntheticDefaultImports": true // Explanation: https://www.typescriptlang.org/tsconfig#allowSyntheticDefaultImports:~:text=tsconfig.json.-,%23,-Interop%20Constraints
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "**/*.spec.ts"]
 }

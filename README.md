@@ -10,9 +10,9 @@
 
 ## Technology
 
-* Reactjs;
-* Webpackjs;
-* Vitejs; (to be added)
-* More
+- Reactjs;
+- Webpackjs;
+- Vitejs; (to be added)
+- More
 
 ---
